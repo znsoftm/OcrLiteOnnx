@@ -19,7 +19,7 @@ OcrLite::OcrLite(const char *path) {
     int crnnModel = crnnNet.load_model((pathStr + "/crnn_lite_op.bin").c_str());
 
     //load keys
-    std::ifstream in("../models/keys.txt");
+    std::ifstream in((pathStr +"/keys.txt").c_str());
     std::string line;
     int keysSize = 0;
     if (in) {// 有该文件
