@@ -35,7 +35,7 @@ OcrLiteOnnx/opencv
 4.  VS2019安装时，至少选中"使用C++的桌面开发"
 5.  开始菜单打开"x64 Native Tools Command Prompt for VS 2019"，并转到OcrLiteOnnx根目录
 6.  运行```build-win.cmd```
-7.  编译完成后运行```run-test-win.cmd```进行测试
+7.  编译完成后运行```run-test-win.cmd```进行测试，或直接运行OcrLiteOnnx.exe，识别test目录下的7张图片
 
 ##### Mac编译说明
 1.  macOS Catalina 10.15.x
@@ -43,14 +43,14 @@ OcrLiteOnnx/opencv
 3.  下载opencv：```brew install opencv@3```
 4.  libomp: ```brew install libomp```
 5.  编译：```./build.sh```
-6.  测试：```./run-test.sh```
+6.  测试：```./run-test.sh```，或直接运行./OcrLiteOnnx，识别test目录下的7张图片
 
 ##### Linux编译说明
 1.  Deepin 20 或其它发行版
 2.  安装build-essential:略……
 3.  下载opencv：各发行版不大一样，略……
 4.  编译：```./build.sh```
-5.  测试：```./run-test.sh```
+5.  测试：```./run-test.sh```，或直接运行./OcrLiteOnnx，识别test目录下的7张图片
 
 #### 测试结果说明
 1.  *-part-x.jpg为分割后的图片
