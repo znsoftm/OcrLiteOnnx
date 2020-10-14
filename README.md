@@ -1,3 +1,5 @@
+复制以改进使用。
+
 # OcrLiteOnnx
 
 #### Demo下载(win、mac、linux)
