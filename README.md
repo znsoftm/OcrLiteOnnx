@@ -39,15 +39,18 @@ OcrLiteOnnx/opencv
 
 ##### Mac编译说明
 1.  macOS Catalina 10.15.x
-2.  下载opencv：```brew install opencv@3```
-3.  编译：```./build.sh```
-4.  测试：```./run-test.sh```
+2.  自行下载安装HomeBrew
+3.  下载opencv：```brew install opencv@3```
+4.  libomp: ```brew install libomp```
+5.  编译：```./build.sh```
+6.  测试：```./run-test.sh```
 
 ##### Linux编译说明
 1.  Deepin 20 或其它发行版
-2.  下载opencv：各发行版不大一样，略……
-3.  编译：```./build.sh```
-4.  测试：```./run-test.sh```
+2.  安装build-essential:略……
+3.  下载opencv：各发行版不大一样，略……
+4.  编译：```./build.sh```
+5.  测试：```./run-test.sh```
 
 #### 测试结果说明
 1.  *-part-x.jpg为分割后的图片
